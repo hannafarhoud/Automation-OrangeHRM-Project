@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-04T11:27:27 EEST" name="Default suite" finished-at="2025-09-04T11:30:31 EEST" duration-ms="184032">
+    <groups>
+    </groups>
+    <test started-at="2025-09-04T11:27:27 EEST" name="Default test" finished-at="2025-09-04T11:30:31 EEST" duration-ms="184032">
+      <class name="QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:27:27 EEST" name="setup" finished-at="2025-09-04T11:27:37 EEST" duration-ms="9792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTestData()[pri:0, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:27:37 EEST" name="setupTestData" finished-at="2025-09-04T11:29:04 EEST" duration-ms="87169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestData -->
+        <test-method signature="TC_EDU_001_verifyEducationButtonRedirect()[pri:1, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:29:04 EEST" name="TC_EDU_001_verifyEducationButtonRedirect" finished-at="2025-09-04T11:29:09 EEST" duration-ms="4590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDU_001_verifyEducationButtonRedirect -->
+        <test-method signature="TC_EDU_002_addNewEducation(java.lang.String)[pri:2, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:29:09 EEST" name="TC_EDU_002_addNewEducation" data-provider="initialEducation" finished-at="2025-09-04T11:29:10 EEST" duration-ms="1406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bachelor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDU_002_addNewEducation -->
+        <test-method signature="TC_EDU_002_addNewEducation(java.lang.String)[pri:2, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:29:10 EEST" name="TC_EDU_002_addNewEducation" data-provider="initialEducation" finished-at="2025-09-04T11:29:13 EEST" duration-ms="2241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Master]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDU_002_addNewEducation -->
+        <test-method signature="TC_EDU_002_addNewEducation(java.lang.String)[pri:2, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:29:13 EEST" name="TC_EDU_002_addNewEducation" data-provider="initialEducation" finished-at="2025-09-04T11:29:14 EEST" duration-ms="1446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PhD2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDU_002_addNewEducation -->
+        <test-method signature="TC_EDU_002_addNewEducation(java.lang.String)[pri:2, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:29:14 EEST" name="TC_EDU_002_addNewEducation" data-provider="initialEducation" finished-at="2025-09-04T11:29:15 EEST" duration-ms="1031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diploma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDU_002_addNewEducation -->
+        <test-method signature="TC_EDU_002_addNewEducation(java.lang.String)[pri:2, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:29:15 EEST" name="TC_EDU_002_addNewEducation" data-provider="initialEducation" finished-at="2025-09-04T11:29:16 EEST" duration-ms="881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[High School]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDU_002_addNewEducation -->
+        <test-method signature="TC_EDU_002_addNewEducation(java.lang.String)[pri:2, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:29:16 EEST" name="TC_EDU_002_addNewEducation" data-provider="initialEducation" finished-at="2025-09-04T11:29:16 EEST" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Associate]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDU_002_addNewEducation -->
+        <test-method signature="TC_EDU_003_verifyEmptyLevelNotAccepted()[pri:3, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:29:16 EEST" name="TC_EDU_003_verifyEmptyLevelNotAccepted" finished-at="2025-09-04T11:29:25 EEST" duration-ms="8809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDU_003_verifyEmptyLevelNotAccepted -->
+        <test-method signature="TC_EDU_004_verifyCancelButtonWorks()[pri:4, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:29:25 EEST" name="TC_EDU_004_verifyCancelButtonWorks" finished-at="2025-09-04T11:29:32 EEST" duration-ms="6660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDU_004_verifyCancelButtonWorks -->
+        <test-method signature="TC_EDU_005_verifyDeleteEducation()[pri:5, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:29:32 EEST" name="TC_EDU_005_verifyDeleteEducation" finished-at="2025-09-04T11:29:42 EEST" duration-ms="10362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDU_005_verifyDeleteEducation -->
+        <test-method signature="TC_EDU_006_verifyDeleteMultipleEducation()[pri:6, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:29:42 EEST" name="TC_EDU_006_verifyDeleteMultipleEducation" finished-at="2025-09-04T11:29:54 EEST" duration-ms="11286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDU_006_verifyDeleteMultipleEducation -->
+        <test-method signature="TC_EDU_007_verifyEditEducation(java.lang.String,java.lang.String)[pri:7, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:29:54 EEST" name="TC_EDU_007_verifyEditEducation" data-provider="editEducationData" finished-at="2025-09-04T11:30:08 EEST" duration-ms="14610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bachelor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bachelor Updated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDU_007_verifyEditEducation -->
+        <test-method signature="TC_EDU_007_verifyEditEducation(java.lang.String,java.lang.String)[pri:7, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:30:08 EEST" name="TC_EDU_007_verifyEditEducation" data-provider="editEducationData" finished-at="2025-09-04T11:30:21 EEST" duration-ms="13324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Master]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Master Updated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDU_007_verifyEditEducation -->
+        <test-method signature="TC_EDU_008_verifyCancelEditEducation()[pri:8, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:30:21 EEST" name="TC_EDU_008_verifyCancelEditEducation" finished-at="2025-09-04T11:30:31 EEST" duration-ms="9817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDU_008_verifyCancelEditEducation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest@385c9627]" started-at="2025-09-04T11:30:31 EEST" name="tearDown" finished-at="2025-09-04T11:30:31 EEST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QABootcam_MAVEN.OrangeHRM.QualificationsEducationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
