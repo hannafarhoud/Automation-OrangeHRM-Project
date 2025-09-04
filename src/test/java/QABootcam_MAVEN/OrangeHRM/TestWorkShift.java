@@ -1,11 +1,11 @@
-package automationProjectOrangeHRM;
+package QABootcam_MAVEN.OrangeHRM;
 
 import org.testng.annotations.Test;
 
-import automationProjectOrangeHRM.Pages.LoginPage;
-import automationProjectOrangeHRM.Pages.MainPage;
-import automationProjectOrangeHRM.Pages.TestData;
-import automationProjectOrangeHRM.Pages.WorkShiftPage;
+import QABootcam_MAVEN.OrangeHRM.Pages.LoginPage;
+import QABootcam_MAVEN.OrangeHRM.Pages.MainPage;
+import QABootcam_MAVEN.OrangeHRM.Pages.TestData;
+import QABootcam_MAVEN.OrangeHRM.Pages.WorkShiftPage;
 
 import java.util.Scanner;
 
@@ -123,7 +123,7 @@ public class TestWorkShift extends BaseTest {
 		main = new MainPage(driver);
 		work_shift = new WorkShiftPage(driver);
 
-		login.login("Admin", "admin123");
+		login.loginAs("Admin", "admin123");
 		main.goToWorkShiftPage();
 
 	}

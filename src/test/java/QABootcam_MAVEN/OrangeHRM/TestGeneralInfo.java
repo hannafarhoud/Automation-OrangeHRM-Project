@@ -1,11 +1,11 @@
-package automationProjectOrangeHRM;
+package QABootcam_MAVEN.OrangeHRM;
 
 import org.testng.annotations.Test;
 
-import automationProjectOrangeHRM.Pages.GeneralInfoPage;
-import automationProjectOrangeHRM.Pages.LoginPage;
-import automationProjectOrangeHRM.Pages.MainPage;
-import automationProjectOrangeHRM.Pages.TestData;
+import QABootcam_MAVEN.OrangeHRM.Pages.GeneralInfoPage;
+import QABootcam_MAVEN.OrangeHRM.Pages.LoginPage;
+import QABootcam_MAVEN.OrangeHRM.Pages.MainPage;
+import QABootcam_MAVEN.OrangeHRM.Pages.TestData;
 
 import java.util.Scanner;
 
@@ -102,7 +102,7 @@ public class TestGeneralInfo extends BaseTest{
 		main = new MainPage(driver);
 		general_info = new GeneralInfoPage(driver);
 
-		login.login("Admin", "admin123");
+		login.loginAs("Admin", "admin123");
 		main.goToGeneralInfoPage();
 
 	}

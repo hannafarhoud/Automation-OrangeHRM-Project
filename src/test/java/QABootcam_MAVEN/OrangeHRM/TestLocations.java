@@ -1,11 +1,11 @@
-package automationProjectOrangeHRM;
+package QABootcam_MAVEN.OrangeHRM;
 
 import org.testng.annotations.Test;
 
-import automationProjectOrangeHRM.Pages.LocationsPage;
-import automationProjectOrangeHRM.Pages.LoginPage;
-import automationProjectOrangeHRM.Pages.MainPage;
-import automationProjectOrangeHRM.Pages.TestData;
+import QABootcam_MAVEN.OrangeHRM.Pages.LocationsPage;
+import QABootcam_MAVEN.OrangeHRM.Pages.LoginPage;
+import QABootcam_MAVEN.OrangeHRM.Pages.MainPage;
+import QABootcam_MAVEN.OrangeHRM.Pages.TestData;
 
 import java.util.Scanner;
 
@@ -94,7 +94,7 @@ public class TestLocations extends BaseTest {
 		main = new MainPage(driver);
 		location = new LocationsPage(driver);
 
-		login.login("Admin", "admin123");
+		login.loginAs("Admin", "admin123");
 		main.goToLocationsPage();
 
 	}
