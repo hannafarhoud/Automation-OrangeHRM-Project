@@ -1,4 +1,4 @@
-package automationProjectOrangeHRM.Pages;
+package QABootcam_MAVEN.OrangeHRM.Pages;
 
 import java.util.List;
 import java.util.Random;

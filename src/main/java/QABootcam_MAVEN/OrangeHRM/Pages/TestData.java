@@ -1,4 +1,4 @@
-package automationProjectOrangeHRM.Pages;
+package QABootcam_MAVEN.OrangeHRM.Pages;
 
 public class TestData {
 	public static String shiftNameField;
